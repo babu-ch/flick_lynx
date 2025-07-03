@@ -7,6 +7,9 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [pluginReact()],
+  output: {
+    distPath: {root: "../docs"}
+  },
   server: {
     publicDir: [
       {

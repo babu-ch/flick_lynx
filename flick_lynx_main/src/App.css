@@ -62,7 +62,7 @@ text {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 20px;
   padding: 20px;
-  width: 80%;
+  width: 90%;
   max-width: 500px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
@@ -115,7 +115,7 @@ text {
 .MobileKeyboard {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
   background-color: #333;
   border-radius: 10px;
