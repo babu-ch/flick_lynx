@@ -8,7 +8,7 @@ const App = () => {
   return (
     <lynx-view
       style={{ height: '100vh', width: '100vw', overflow: 'hidden', 'touch-action': 'none'}}
-      url="/main.web.bundle"
+      url="./main.web.bundle"
     ></lynx-view>
   );
 };
