@@ -13,7 +13,6 @@ export function App() {
   const [activeCharSet, setActiveCharSet] = useState<Key | null>(null);
 
   function onKeyConfirm(key: Key, text: string) {
-    console.warn("confirm!", key, text)
     setActiveCharSet(null)
 
     setPrevChar(text)
