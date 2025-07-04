@@ -59,7 +59,6 @@ export function Key({
     setActiveCharSet(charSet)
     const x = e.touches[0].clientX
     const y = e.touches[0].clientY
-    console.log('setstartposition', {x, y}, e)
     setStartPosition({x, y})
     setCurrentChar(charSet.center)
   }
@@ -68,8 +67,6 @@ export function Key({
     const endX = e.touches[0].clientX
     const endY = e.touches[0].clientY
     const direction = calculateDirection(startPosition.x, startPosition.y, endX, endY)
-    console.log('dir', direction)
-    console.log('current', currentChar, charSet[direction])
 
     elRef.current?.invoke(
       {
