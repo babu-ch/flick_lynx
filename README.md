@@ -18,3 +18,18 @@ ttps://babu-ch.github.io/flick_lynx/main.lynx.bundle
 ├── flick_lynx_main    # main source  
 └── flick_lynx_web     # for web  
 ```
+
+## build
+
+```sh
+cd flick_lynx_main
+npm run build
+
+# web
+cd ../flick_lynx_web
+npm run build
+
+# android 
+cd ../flick_lynx_android
+cp ../flick_lynx_main/dist/main.lynx.bundle ./app/src/main/assets/
+```
